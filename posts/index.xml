@@ -6,14 +6,14 @@
     <description>Recent content in Posts on Robert Dulko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Nov 2022 17:07:21 +0200</lastBuildDate><atom:link href="https://overlydevoted.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Nov 2022 17:43:44 +0200</lastBuildDate><atom:link href="https://overlydevoted.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Second</title>
       <link>https://overlydevoted.github.io/posts/second/</link>
-      <pubDate>Thu, 24 Nov 2022 17:07:21 +0200</pubDate>
+      <pubDate>Thu, 24 Nov 2022 17:43:44 +0200</pubDate>
       
       <guid>https://overlydevoted.github.io/posts/second/</guid>
-      <description>typedef unsigned char ubyte; ubyte* m_data; ubyte* m_resultData; size_t m_worldWidth; size_t m_worldHeight; size_t m_dataLength; // m_worldWidth * m_worldHeight void computeIterationSerial() { for (size_t y = 0; y &amp;lt; m_worldHeight; ++y) { size_t y0 = ((y + m_worldHeight - 1) % m_worldHeight) * m_worldWidth; size_t y1 = y * m_worldWidth; size_t y2 = ((y + 1) % m_worldHeight) * m_worldWidth; for (size_t x = 0; x &amp;lt; m_worldWidth; ++x) { size_t x0 = (x + m_worldWidth - 1) % m_worldWidth; size_t x2 = (x + 1) % m_worldWidth; ubyte aliveCells = countAliveCells(x0, x, x2, y0, y1, y2); m_resultData[y1 + x] = aliveCells == 3 || (aliveCells == 2 &amp;amp;&amp;amp; m_data[x + y1]) ?</description>
+      <description>#execute as @s run say opposite # Killer&amp;#39;s Death/kill streak execute as @s run scoreboard players add @s killStreak 1 execute as @s run scoreboard players set @s deathStreak 0 # PAYOUT calculations execute as @s run scoreboard players operation @s EssencePayout += #baseKillPrice EssenceCost execute as @s run scoreboard players operation @s EssencePayout -= @a[scores={killed=1}] deathStreak execute as @s run scoreboard players operation @s EssencePayout += @a[scores={killed=1}] killStreak execute as @s run scoreboard players operation @s Essence += @s EssencePayout # end functions execute as @s run scoreboard players set @s EssencePayout 0 # Killed&amp;#39;s death kill/streak execute as @a[scores={killed=1}] run scoreboard players set @a[scores={killed=1}] killStreak 0 execute as @a[scores={killed=1}] if score @a[scores={killed=1},limit=1] deathStreak &amp;lt; #maxDeathStreak deathStreak run scoreboard players add @s deathStreak 1 </description>
     </item>
     
     <item>
