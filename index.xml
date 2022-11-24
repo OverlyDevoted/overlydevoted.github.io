@@ -6,7 +6,16 @@
     <description>Recent content on Robert Dulko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Nov 2022 16:43:41 +0200</lastBuildDate><atom:link href="https://overlydevoted.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Nov 2022 17:07:21 +0200</lastBuildDate><atom:link href="https://overlydevoted.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Second</title>
+      <link>https://overlydevoted.github.io/posts/second/</link>
+      <pubDate>Thu, 24 Nov 2022 17:07:21 +0200</pubDate>
+      
+      <guid>https://overlydevoted.github.io/posts/second/</guid>
+      <description>typedef unsigned char ubyte; ubyte* m_data; ubyte* m_resultData; size_t m_worldWidth; size_t m_worldHeight; size_t m_dataLength; // m_worldWidth * m_worldHeight void computeIterationSerial() { for (size_t y = 0; y &amp;lt; m_worldHeight; ++y) { size_t y0 = ((y + m_worldHeight - 1) % m_worldHeight) * m_worldWidth; size_t y1 = y * m_worldWidth; size_t y2 = ((y + 1) % m_worldHeight) * m_worldWidth; for (size_t x = 0; x &amp;lt; m_worldWidth; ++x) { size_t x0 = (x + m_worldWidth - 1) % m_worldWidth; size_t x2 = (x + 1) % m_worldWidth; ubyte aliveCells = countAliveCells(x0, x, x2, y0, y1, y2); m_resultData[y1 + x] = aliveCells == 3 || (aliveCells == 2 &amp;amp;&amp;amp; m_data[x + y1]) ?</description>
+    </item>
+    
     <item>
       <title>First</title>
       <link>https://overlydevoted.github.io/posts/first/</link>
